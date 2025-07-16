@@ -6,7 +6,7 @@ This project is an AI-powered assistant made to assist researchers in automating
 
 ---
 
-#Features
+# Features
 
 **Gemini 1.5 Flash** and **RAG** are used in **AI Research Idea Generation** to produce innovative and workable research concepts and strategies.
 *Quality Assessment Using RAGAS**
@@ -20,10 +20,10 @@ This project is an AI-powered assistant made to assist researchers in automating
 
 
 # Install Dependencies
-bash
+
 -pip install -r requirements.txt
 
 # Run with Docker (Recommended)
-bash
+
 docker build -t research-assistant .
 docker run -p 8000:8000 research-assistant
